@@ -7568,7 +7568,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 91.948 64.262 0)
+		(at 560.578 344.932 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8042,7 +8042,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 81.28) (xy 80.01 80.01)
+			(xy 548.64 361.95) (xy 548.64 360.68)
 		)
 		(stroke
 			(width 0)
@@ -8192,7 +8192,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 101.6 81.28)
+			(xy 567.69 361.95) (xy 570.23 361.95)
 		)
 		(stroke
 			(width 0)
@@ -8572,7 +8572,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 71.12) (xy 80.01 72.39)
+			(xy 548.64 351.79) (xy 548.64 353.06)
 		)
 		(stroke
 			(width 0)
@@ -8652,7 +8652,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 101.6 72.39)
+			(xy 570.23 351.79) (xy 570.23 353.06)
 		)
 		(stroke
 			(width 0)
@@ -9902,7 +9902,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 81.28) (xy 101.6 80.01)
+			(xy 570.23 361.95) (xy 570.23 360.68)
 		)
 		(stroke
 			(width 0)
@@ -10562,7 +10562,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 80.01 81.28)
+			(xy 546.1 361.95) (xy 548.64 361.95)
 		)
 		(stroke
 			(width 0)
@@ -10730,7 +10730,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 77.47 81.28 180)
+		(at 546.1 361.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10740,7 +10740,7 @@
 		)
 		(uuid "0e2f1aec-dbc1-4dd3-bad3-ac86a77a6570")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.9772 81.28 0)
+			(at 539.6072 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +11456,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 99.06 81.28 180)
+		(at 567.69 361.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11466,7 +11466,7 @@
 		)
 		(uuid "723570f3-8d02-4266-a681-67a30bb85d1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5067 81.28 0)
+			(at 561.1367 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14749,7 +14749,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 101.6 71.12 0)
+		(at 570.23 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14758,7 +14758,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b9b88d5-4841-4345-bef0-0851f7946f55")
 		(property "Reference" "#PWR063"
-			(at 101.6 74.93 0)
+			(at 570.23 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14767,7 +14767,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 101.6 66.04 0)
+			(at 570.23 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +14775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 71.12 0)
+			(at 570.23 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14784,7 +14784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 71.12 0)
+			(at 570.23 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +14793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 101.6 71.12 0)
+			(at 570.23 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18757,7 +18757,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 80.01 76.2 180)
+		(at 548.64 356.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18766,7 +18766,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2b443af-20f4-422f-8388-6d578c8c5cf3")
 		(property "Reference" "R8"
-			(at 82.55 74.9299 0)
+			(at 551.18 355.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18775,7 +18775,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 82.55 77.4699 0)
+			(at 551.18 358.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18784,7 +18784,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 78.994 75.946 90)
+			(at 547.624 356.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18793,7 +18793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 76.2 0)
+			(at 548.64 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18802,7 +18802,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 80.01 76.2 0)
+			(at 548.64 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22021,7 +22021,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 76.2 180)
+		(at 570.23 356.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22030,7 +22030,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1cbec41-6968-4105-a304-449a555fadb8")
 		(property "Reference" "R7"
-			(at 104.14 74.9299 0)
+			(at 572.77 355.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22039,7 +22039,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 104.14 77.4699 0)
+			(at 572.77 358.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22048,7 +22048,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 100.584 75.946 90)
+			(at 569.214 356.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22057,7 +22057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 76.2 0)
+			(at 570.23 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22066,7 +22066,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 76.2 0)
+			(at 570.23 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22360,7 +22360,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 80.01 71.12 0)
+		(at 548.64 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22369,7 +22369,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9b21177-8491-45cf-bfe6-0686c7e8f09a")
 		(property "Reference" "#PWR064"
-			(at 80.01 74.93 0)
+			(at 548.64 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22378,7 +22378,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 80.01 66.04 0)
+			(at 548.64 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22386,7 +22386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 71.12 0)
+			(at 548.64 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22395,7 +22395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 71.12 0)
+			(at 548.64 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22404,7 +22404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 80.01 71.12 0)
+			(at 548.64 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
