@@ -13,4 +13,6 @@
   (lib (name "tcm6300")(type "KiCad")(uri "${KIPRJMOD}/components/TCM6300/footprints.pretty")(options "")(descr ""))
   (lib (name "MCP7940MT_I_SN")(type "KiCad")(uri "${KIPRJMOD}/components/MCP7940MT_I_SN")(options "")(descr ""))
   (lib (name "CONMHF1_SMD_T")(type "KiCad")(uri "${KIPRJMOD}/components/CONMHF1_SMD_T")(options "")(descr ""))
+  (lib (name "ASMB_KTF0_0A306")(type "KiCad")(uri "${KIPRJMOD}/components/ASMB_KTF0_0A306")(options "")(descr ""))
+  (lib (name "LP38691SD_3_3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/components/LP38691SD_3_3_NOPB")(options "")(descr ""))
 )
