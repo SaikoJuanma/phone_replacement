@@ -62,4 +62,11 @@ tags
 .idea
 
 release_*/
+# PCB folder - ignore everything except specific files
+PCB/*
+!PCB/*.kicad_pro
+!PCB/*.kicad_sch
+!PCB/*.kicad_pcb
+!PCB/components/
+!PCB/components/**
 
