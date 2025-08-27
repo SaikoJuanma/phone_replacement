@@ -15,4 +15,6 @@
   (lib (name "CONMHF1_SMD_T")(type "KiCad")(uri "${KIPRJMOD}/components/CONMHF1_SMD_T")(options "")(descr ""))
   (lib (name "ASMB_KTF0_0A306")(type "KiCad")(uri "${KIPRJMOD}/components/ASMB_KTF0_0A306")(options "")(descr ""))
   (lib (name "LP38691SD_3_3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/components/LP38691SD_3_3_NOPB")(options "")(descr ""))
+  (lib (name "2659")(type "KiCad")(uri "${KIPRJMOD}/components/2659")(options "")(descr ""))
+  (lib (name "DRV2605LDGSR")(type "KiCad")(uri "${KIPRJMOD}/components/DRV2605LDGSR")(options "")(descr ""))
 )
