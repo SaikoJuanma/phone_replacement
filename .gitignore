@@ -64,9 +64,9 @@ tags
 release_*/
 # PCB folder - ignore everything except specific files
 PCB/*
-!PCB/*.kicad_pro
-!PCB/*.kicad_sch
-!PCB/*.kicad_pcb
-!PCB/components/
-!PCB/components/**
-
+!PCB/TOP-PCB/*.kicad_pro
+!PCB/TOP-PCB/*.kicad_sch
+!PCB/TOP-PCB/*.kicad_pcb
+!PCB/BOTTOM-PCB/*.kicad_pro
+!PCB/BOTTOM-PCB/*.kicad_sch
+!PCB/BOTTOM-PCB/*.kicad_pcb
