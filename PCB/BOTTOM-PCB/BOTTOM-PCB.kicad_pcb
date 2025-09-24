@@ -23587,17 +23587,6 @@
 		(uuid "2eb07ee5-644a-4bb4-bcea-5d2008a3d04a")
 	)
 	(gr_circle
-		(center 150.495 68.58)
-		(end 151.295 68.58)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "997eb68d-30e4-4a21-a953-480cd8e84728")
-	)
-	(gr_circle
 		(center 152.75 84.75)
 		(end 153.55 84.75)
 		(stroke

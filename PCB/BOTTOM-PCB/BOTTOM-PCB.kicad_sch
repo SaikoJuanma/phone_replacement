@@ -10264,6 +10264,16 @@
 		)
 		(uuid "a5d54f5c-f553-4e60-ba04-d74d7aa3fcbf")
 	)
+	(text "tvs should be on the input of the power supply\n"
+		(exclude_from_sim no)
+		(at 375.412 144.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8efb55c-b870-40f1-87e2-66accd35d8e4")
+	)
 	(text "Battery control"
 		(exclude_from_sim no)
 		(at 80.264 166.116 0)
@@ -10323,6 +10333,16 @@
 			)
 		)
 		(uuid "ebe3da48-e9e5-41b9-b140-6adef9923c0a")
+	)
+	(text "Change size from 0201 to 0403 hand soldering"
+		(exclude_from_sim no)
+		(at 54.102 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed937539-7e1d-4584-9d41-f72e393b5821")
 	)
 	(text "USB"
 		(exclude_from_sim no)
