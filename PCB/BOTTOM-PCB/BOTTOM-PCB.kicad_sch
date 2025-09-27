@@ -3813,168 +3813,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SD05_SOD323"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SD05_SOD323"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transient voltage suppressor thyrector transil"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SD05_SOD323_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SD05_SOD323_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ESP32-S3:ESP32-S3"
 			(pin_names
 				(offset 1.016)
@@ -10144,16 +9982,6 @@
 		)
 		(uuid "32f1da5b-431e-468a-a102-b7f29a2a5f74")
 	)
-	(text "button must be connected to pin capable of pull up"
-		(exclude_from_sim no)
-		(at 75.946 340.106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "36d3f0cb-2d26-47e2-b762-a69c3235f170")
-	)
 	(text "Motor"
 		(exclude_from_sim no)
 		(at 222.25 26.162 0)
@@ -10254,26 +10082,6 @@
 		)
 		(uuid "a43b760a-442e-4655-9ab2-adc56819e7e2")
 	)
-	(text "MOSI AND DO ARE THE SAME? "
-		(exclude_from_sim no)
-		(at 557.784 340.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a5d54f5c-f553-4e60-ba04-d74d7aa3fcbf")
-	)
-	(text "tvs should be on the input of the power supply\n"
-		(exclude_from_sim no)
-		(at 375.412 144.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c8efb55c-b870-40f1-87e2-66accd35d8e4")
-	)
 	(text "Battery control"
 		(exclude_from_sim no)
 		(at 80.264 166.116 0)
@@ -10323,26 +10131,6 @@
 			)
 		)
 		(uuid "e63b86c2-a9e1-4e5c-870f-e4afd66cfe8f")
-	)
-	(text "RGB"
-		(exclude_from_sim no)
-		(at 47.244 27.94 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "ebe3da48-e9e5-41b9-b140-6adef9923c0a")
-	)
-	(text "Change size from 0201 to 0403 hand soldering"
-		(exclude_from_sim no)
-		(at 54.102 63.754 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ed937539-7e1d-4584-9d41-f72e393b5821")
 	)
 	(text "USB"
 		(exclude_from_sim no)
@@ -10668,19 +10456,21 @@
 		(color 0 0 0 0)
 		(uuid "ff7fb886-8928-46f0-8841-3607970e7abc")
 	)
-	(junction
-		(at 406.4 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff9d8825-fc21-45d5-82cf-b2c1ef9f21c8")
-	)
 	(no_connect
 		(at 480.06 316.23)
 		(uuid "0169cfb9-591e-4f55-8eca-ad6dca5bfcfa")
 	)
 	(no_connect
+		(at 533.4 270.51)
+		(uuid "0cfd5040-2f4d-400a-8b42-d6c5ff7b55d2")
+	)
+	(no_connect
 		(at 370.84 252.73)
 		(uuid "29bd6c22-58f5-4917-aaa3-d3fcbfe5257a")
+	)
+	(no_connect
+		(at 533.4 290.83)
+		(uuid "3666bf32-a2d9-47ef-9f0f-a1f08a153c45")
 	)
 	(no_connect
 		(at 99.06 316.23)
@@ -10705,6 +10495,14 @@
 	(no_connect
 		(at 370.84 250.19)
 		(uuid "6d3544ba-0a2e-495f-8cf5-0fec4f8e2ee9")
+	)
+	(no_connect
+		(at 533.4 306.07)
+		(uuid "818577b4-dde8-4842-b7eb-ada1d90974e6")
+	)
+	(no_connect
+		(at 533.4 308.61)
+		(uuid "82d50fa8-1312-4c10-afea-5553f5b02e3d")
 	)
 	(no_connect
 		(at 335.28 237.49)
@@ -11110,7 +10908,7 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 160.02) (xy 393.7 160.02)
+			(xy 393.7 160.02) (xy 407.67 160.02)
 		)
 		(stroke
 			(width 0)
@@ -11397,16 +11195,6 @@
 			(type default)
 		)
 		(uuid "2b9387e7-c9f5-43f4-8016-c334498d8ae8")
-	)
-	(wire
-		(pts
-			(xy 416.56 170.18) (xy 416.56 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd6e633-142c-4f85-90b8-2051076170ce")
 	)
 	(wire
 		(pts
@@ -11770,16 +11558,6 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 162.56) (xy 406.4 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b78d9aa-7b69-4f15-8dfc-e695baeff6ac")
-	)
-	(wire
-		(pts
 			(xy 58.42 312.42) (xy 55.88 312.42)
 		)
 		(stroke
@@ -11800,7 +11578,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 162.56) (xy 416.56 160.02)
+			(xy 407.67 162.56) (xy 407.67 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12247,16 +12025,6 @@
 			(type default)
 		)
 		(uuid "548472cb-7c7c-4ba9-9689-b5b3261974da")
-	)
-	(wire
-		(pts
-			(xy 416.56 160.02) (xy 406.4 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d7d3d7-4421-46f2-9e8d-fbed26dc3349")
 	)
 	(wire
 		(pts
@@ -13170,16 +12938,6 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 170.18) (xy 406.4 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad7a12e-2a6f-4e6d-8b91-0751fd81354f")
-	)
-	(wire
-		(pts
 			(xy 193.04 152.4) (xy 196.85 152.4)
 		)
 		(stroke
@@ -13877,6 +13635,16 @@
 			(type default)
 		)
 		(uuid "b9d4f48f-5502-4a78-a635-b0815fce89b2")
+	)
+	(wire
+		(pts
+			(xy 407.67 170.18) (xy 407.67 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba78d296-4113-4966-aa73-033c8441b834")
 	)
 	(wire
 		(pts
@@ -14944,6 +14712,28 @@
 			)
 		)
 	)
+	(global_label "INT1"
+		(shape input)
+		(at 477.52 300.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0490a14d-feec-457a-86d2-8db2c4331321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 470.4224 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VH"
 		(shape input)
 		(at 533.4 283.21 0)
@@ -15001,6 +14791,28 @@
 		(uuid "0623bc6c-7352-4124-8362-bf9ddff5f11f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 197.3724 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT2"
+		(shape input)
+		(at 477.52 303.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "065525ca-a803-4f88-be40-f8f4e2c793e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 470.4224 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15120,28 +14932,6 @@
 			)
 		)
 	)
-	(global_label "36"
-		(shape input)
-		(at 533.4 316.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1318b739-c86a-4a6a-b1b9-2472dd5c14bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.8042 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 248.92 312.42 0)
@@ -15166,7 +14956,7 @@
 	)
 	(global_label "nCS"
 		(shape input)
-		(at 556.26 322.58 0)
+		(at 533.4 316.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15176,7 +14966,7 @@
 		)
 		(uuid "14663afc-73ff-4149-92db-105dcdaa422c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 562.8737 322.58 0)
+			(at 540.0137 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15199,28 +14989,6 @@
 		(uuid "14bfd00e-dd18-411a-9702-aa7b646942ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 538.8647 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "33"
-		(shape input)
-		(at 533.4 308.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "164aff42-5a80-419b-9bb4-c2418582a31d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.8042 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15430,7 +15198,7 @@
 	)
 	(global_label "nRESET"
 		(shape input)
-		(at 556.26 330.2 0)
+		(at 533.4 318.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15440,7 +15208,7 @@
 		)
 		(uuid "2c5581d6-0522-4c49-b7a1-4c30af590238")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.1393 330.2 0)
+			(at 543.2793 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15600,28 +15368,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "35"
-		(shape input)
-		(at 533.4 313.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "353e8d2c-cfcd-4e17-8f88-8740ab3f5237")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.8042 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -15824,50 +15570,6 @@
 			)
 		)
 	)
-	(global_label "37"
-		(shape input)
-		(at 533.4 318.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "528b7859-8ec1-4559-af6e-789ec6152ee4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.8042 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "34"
-		(shape input)
-		(at 533.4 311.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52aaae8c-a971-469c-bdb6-b716d65c15a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.8042 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_CS0"
 		(shape input)
 		(at 477.52 313.69 180)
@@ -15936,7 +15638,7 @@
 	)
 	(global_label "BACKLIGHT_EN"
 		(shape input)
-		(at 556.26 312.42 0)
+		(at 533.4 313.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15946,7 +15648,7 @@
 		)
 		(uuid "69d49378-9fb1-40e1-9b02-5c20effb7dc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 572.7919 312.42 0)
+			(at 549.9319 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16860,7 +16562,7 @@
 	)
 	(global_label "DC"
 		(shape input)
-		(at 556.26 314.96 0)
+		(at 533.4 311.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16870,7 +16572,7 @@
 		)
 		(uuid "ab11a283-9554-4104-b10d-f5f35b73d44b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 561.7852 314.96 0)
+			(at 538.9252 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,28 +16595,6 @@
 		(uuid "aea708ed-cd1b-488f-afef-8181a0c4501c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 260.7953 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "21"
-		(shape input)
-		(at 533.4 306.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aec42680-4980-4c74-97c1-4b71327e9e58")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 538.8042 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17122,28 +16802,6 @@
 			)
 		)
 	)
-	(global_label "DO"
-		(shape input)
-		(at 556.26 332.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf2ee251-0b01-4472-ab6c-d7deeb1cca84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 561.8457 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "nCS"
 		(shape input)
 		(at 53.34 374.65 0)
@@ -17206,50 +16864,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "47"
-		(shape input)
-		(at 477.52 300.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c68ea8de-6080-4664-ac9a-06043f102103")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 472.1158 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "48"
-		(shape input)
-		(at 477.52 303.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9471cb8-cf65-466f-bd3b-35d8582827d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 472.1158 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17509,28 +17123,6 @@
 		(uuid "e13af565-3d77-42e3-a402-7565955e577b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 543.7633 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Gauge"
-		(shape input)
-		(at 557.53 304.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e687a8f8-e485-416b-8acd-62985fb04472")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.3208 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17874,7 +17466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.95 237.49 0)
 			(effects
 				(font
@@ -17883,7 +17475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 234.95 237.49 0)
 			(effects
 				(font
@@ -17892,7 +17484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 234.95 237.49 0)
 			(effects
 				(font
@@ -18076,7 +17668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 412.4452 68.58 0)
 			(effects
 				(font
@@ -18146,7 +17738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 469.5952 358.14 0)
 			(effects
 				(font
@@ -18676,7 +18268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 241.554 157.734 90)
 			(effects
 				(font
@@ -19116,7 +18708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 482.346 40.894 90)
 			(effects
 				(font
@@ -19395,7 +18987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 248.6152 82.55 0)
 			(effects
 				(font
@@ -19729,7 +19321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 204.1652 102.87 0)
 			(effects
 				(font
@@ -20262,7 +19854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 382.016 245.364 90)
 			(effects
 				(font
@@ -20462,7 +20054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 439.674 110.744 90)
 			(effects
 				(font
@@ -21323,7 +20915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 522.9352 220.98 0)
 			(effects
 				(font
@@ -21643,7 +21235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 536.9052 62.23 0)
 			(effects
 				(font
@@ -21912,7 +21504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 113.3348 290.83 0)
 			(effects
 				(font
@@ -21921,7 +21513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 114.3 294.64 0)
 			(effects
 				(font
@@ -21930,7 +21522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 114.3 294.64 0)
 			(effects
 				(font
@@ -22182,7 +21774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 32.0548 226.06 0)
 			(effects
 				(font
@@ -22191,7 +21783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 33.02 229.87 0)
 			(effects
 				(font
@@ -22200,7 +21792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 33.02 229.87 0)
 			(effects
 				(font
@@ -22318,7 +21910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 283.464 150.876 90)
 			(effects
 				(font
@@ -22455,7 +22047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 328.676 222.504 90)
 			(effects
 				(font
@@ -22926,7 +22518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 269.5448 314.96 0)
 			(effects
 				(font
@@ -22935,7 +22527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 270.51 318.77 0)
 			(effects
 				(font
@@ -22944,7 +22536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 270.51 318.77 0)
 			(effects
 				(font
@@ -23473,7 +23065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 351.4852 78.74 0)
 			(effects
 				(font
@@ -23965,7 +23557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 361.696 337.566 90)
 			(effects
 				(font
@@ -24600,7 +24192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 332.4352 172.72 0)
 			(effects
 				(font
@@ -25200,7 +24792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 507.6952 358.14 0)
 			(effects
 				(font
@@ -25270,7 +24862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 197.866 157.734 90)
 			(effects
 				(font
@@ -25496,7 +25088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 495.3 350.52 0)
 			(effects
 				(font
@@ -25750,7 +25342,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 202.2348 321.31 0)
 			(effects
 				(font
@@ -25759,7 +25351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 203.2 325.12 0)
 			(effects
 				(font
@@ -25768,7 +25360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 203.2 325.12 0)
 			(effects
 				(font
@@ -26084,7 +25676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 263.8552 76.2 0)
 			(effects
 				(font
@@ -26220,7 +25812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 510.2352 220.98 0)
 			(effects
 				(font
@@ -26290,7 +25882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 461.9752 66.04 0)
 			(effects
 				(font
@@ -26406,72 +25998,6 @@
 			(project "PCB"
 				(path "/0e6e807a-aa17-426c-9b4f-4654f57d47eb"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 406.4 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9592d614-06a9-4309-aaec-1f136858691b")
-		(property "Reference" "#PWR029"
-			(at 406.4 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 406.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 406.4 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 406.4 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 406.4 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6948f660-97ea-4ab5-a1e5-b3dc1ed16b14")
-		)
-		(instances
-			(project "PCB"
-				(path "/0e6e807a-aa17-426c-9b4f-4654f57d47eb"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -26773,7 +26299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 441.706 48.514 90)
 			(effects
 				(font
@@ -27473,7 +26999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 486.1052 358.14 0)
 			(effects
 				(font
@@ -27543,7 +27069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 147.0152 115.57 0)
 			(effects
 				(font
@@ -27872,7 +27398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 558.4952 259.08 0)
 			(effects
 				(font
@@ -27942,7 +27468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 152.7048 218.44 0)
 			(effects
 				(font
@@ -27951,7 +27477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 153.67 222.25 0)
 			(effects
 				(font
@@ -27960,7 +27486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 153.67 222.25 0)
 			(effects
 				(font
@@ -28012,7 +27538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 541.274 356.616 90)
 			(effects
 				(font
@@ -28214,7 +27740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 369.57 313.69 0)
 			(effects
 				(font
@@ -28223,7 +27749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 369.57 313.69 0)
 			(effects
 				(font
@@ -28232,7 +27758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 369.57 313.69 0)
 			(effects
 				(font
@@ -28302,7 +27828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 394.6652 168.91 0)
 			(effects
 				(font
@@ -28372,7 +27898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 152.0952 50.8 0)
 			(effects
 				(font
@@ -28553,7 +28079,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e796fa-4f85-434d-ac41-f1a6a37f6b98")
 		(property "Reference" "C28"
@@ -28574,7 +28100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 225.0948 241.3 0)
 			(effects
 				(font
@@ -28583,7 +28109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 226.06 245.11 0)
 			(effects
 				(font
@@ -28592,7 +28118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 226.06 245.11 0)
 			(effects
 				(font
@@ -28618,7 +28144,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 416.56 173.99 0)
+		(at 407.67 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28627,7 +28153,7 @@
 		(fields_autoplaced yes)
 		(uuid "c25c1209-ba8d-45a7-8c01-cf2212f53344")
 		(property "Reference" "#PWR030"
-			(at 416.56 180.34 0)
+			(at 407.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28636,7 +28162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 416.56 179.07 0)
+			(at 407.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28644,7 +28170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 416.56 173.99 0)
+			(at 407.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28653,7 +28179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 416.56 173.99 0)
+			(at 407.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28662,7 +28188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 416.56 173.99 0)
+			(at 407.67 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29661,7 +29187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 241.6048 241.3 0)
 			(effects
 				(font
@@ -29670,7 +29196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 242.57 245.11 0)
 			(effects
 				(font
@@ -29679,7 +29205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 242.57 245.11 0)
 			(effects
 				(font
@@ -29861,7 +29387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 78.994 198.374 90)
 			(effects
 				(font
@@ -30242,7 +29768,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 416.56 166.37 0)
+		(at 407.67 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30251,7 +29777,7 @@
 		(fields_autoplaced yes)
 		(uuid "d59c47c6-aedc-4d7c-9c9b-8a3259acf47e")
 		(property "Reference" "C16"
-			(at 420.37 164.2109 0)
+			(at 411.48 164.2109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30260,7 +29786,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 420.37 166.7509 0)
+			(at 411.48 166.7509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30269,7 +29795,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J_HandSolder"
-			(at 417.5252 170.18 0)
+			(at 408.6352 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30278,7 +29804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 416.56 166.37 0)
+			(at 407.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30287,7 +29813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 416.56 166.37 0)
+			(at 407.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30338,7 +29864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 219.4052 102.87 0)
 			(effects
 				(font
@@ -30408,7 +29934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 75.946 212.344 90)
 			(effects
 				(font
@@ -30776,7 +30302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 545.7952 264.16 0)
 			(effects
 				(font
@@ -30846,7 +30372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 498.8052 60.96 0)
 			(effects
 				(font
@@ -31050,7 +30576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 395.986 48.514 90)
 			(effects
 				(font
@@ -31252,7 +30778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 555.9552 222.25 0)
 			(effects
 				(font
@@ -31322,7 +30848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 534.416 70.104 90)
 			(effects
 				(font
@@ -31359,75 +30885,6 @@
 			(project ""
 				(path "/0e6e807a-aa17-426c-9b4f-4654f57d47eb"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 406.4 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8689727-f6a3-4eba-83d2-570bddfcaf09")
-		(property "Reference" "D1"
-			(at 408.94 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD03_SOD323"
-			(at 405.13 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 411.48 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 406.4 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "https://www.digikey.es/es/products/detail/diodes-incorporated/SD03C-7/10295726"
-			(at 406.4 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf22e6cf-77c8-4403-997f-f11b8560afaa")
-		)
-		(pin "2"
-			(uuid "6c8d9d4e-609a-4478-806f-bb09e4233d21")
-		)
-		(instances
-			(project ""
-				(path "/0e6e807a-aa17-426c-9b4f-4654f57d47eb"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -31527,7 +30984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 563.5752 62.23 0)
 			(effects
 				(font
@@ -31597,7 +31054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 567.3852 222.25 0)
 			(effects
 				(font
@@ -31733,7 +31190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 562.864 356.616 90)
 			(effects
 				(font
@@ -31969,7 +31426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 264.4648 179.07 0)
 			(effects
 				(font
@@ -32457,7 +31914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 51.1048 226.06 0)
 			(effects
 				(font
@@ -32466,7 +31923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX5R8BB104/20376210?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwLUADLUoIQySOmz4ipEJIB0YAAQBWgGIgmINhwCqAvqwDyKALI40WAK48cY8SGprNOgSm1EHB40AFs%2BZAZRIA"
+		(property "Datasheet" ""
 			(at 52.07 229.87 0)
 			(effects
 				(font
@@ -32475,7 +31932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 52.07 229.87 0)
 			(effects
 				(font
