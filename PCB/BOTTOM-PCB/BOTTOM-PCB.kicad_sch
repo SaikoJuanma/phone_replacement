@@ -18364,6 +18364,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MAX17048G+T10"
+			(at 120.65 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3384ff58-5262-432c-8239-85bc85bb4a03")
 		)
@@ -20334,6 +20343,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AMCA31-2R450G-S1F-T3"
+			(at 212.09 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0c90da3-cccd-4e97-8c44-f94f8ffc8df2")
 		)
@@ -21186,6 +21204,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ABM12W-40.0000MHZ-8-B1U-T3"
+			(at 549.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40eba794-e99b-4c30-ac92-632b903aed75")
 		)
@@ -21666,7 +21693,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LP38691SD-3.3"
+		(property "MPN" "LP38691SD-3.3/NOPB"
 			(at 368.3 162.56 0)
 			(effects
 				(font
@@ -22853,6 +22880,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LSM6DSO32TR"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4461f64-05d7-4805-9049-59472ae614f2")
 		)
@@ -23498,6 +23534,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "  BME688"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "02083c83-178c-4fce-ad05-1791f82ebdd2")
 		)
@@ -23698,6 +23743,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESP32-S3"
+			(at 505.46 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -24038,6 +24092,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "12402012E212A"
+			(at 353.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -24951,6 +25014,15 @@
 			)
 		)
 		(property "Description" "https://www.digikey.com/en/models/4866959"
+			(at 228.6 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DRV2605LYZFR"
 			(at 228.6 309.88 0)
 			(effects
 				(font
@@ -26190,7 +26262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "175-TMC6300-LA-TCT-ND"
+		(property "MPN" "  TMC6300-LA-T"
 			(at 191.77 46.99 0)
 			(effects
 				(font
@@ -26562,6 +26634,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 417.83 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.es/es/products/detail/stmicroelectronics/USBLC6-2SC6/1040559"
+			(at 417.83 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "75a72482-feca-4db6-928f-05dd1ec5cd6b")
 		)
@@ -26755,6 +26845,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMT-0525-75-SMT-TR"
+			(at 386.08 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27334,6 +27433,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RV-3028-C7 32.768KHZ 1PPM-TA-QC"
+			(at 217.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28850,6 +28958,15 @@
 			)
 		)
 		(property "Description" "https://www.digikey.com/es/products/detail/microchip-technology/MCP73832T-2ACI-MC/1223140"
+			(at 29.21 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP73832T-2ACI/MC"
 			(at 29.21 196.85 0)
 			(effects
 				(font
@@ -30527,6 +30644,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTR-329ALS-01"
+			(at 335.28 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1716e8aa-e350-4abe-92ed-2950f72b241f")
 		)
@@ -31296,6 +31422,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MX25R6435FZAIH0"
+			(at 495.3 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "ea00e10a-0f35-4d49-aedc-7f9706a6b8ef")
 		)
@@ -31691,6 +31826,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLX90393SLW-ABA-011-RE"
+			(at 78.74 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
